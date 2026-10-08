@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import RootLayout from './Layouts/RootLayouts.jsx';
-import Home from './Pages/Home.jsx';
-import Books from './Pages/Books.jsx';
-import Team from './Pages/Team.jsx';
-import Contact from './Pages/Contact.jsx';
+import RootLayout from './Layouts/RootLayouts';
+import Home from './Pages/Home';
+import Books from './Pages/Books';
+import Team from './Pages/Team';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
